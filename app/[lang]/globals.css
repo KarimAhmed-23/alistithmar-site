@@ -1136,8 +1136,8 @@ stroke-dashoffset: -134;
 	padding-bottom: .5rem;
 }
 .document-tabs .tabs-btn-list .tab-btn.active{
-	color: var(--clr-1);
-	border-color: var(--clr-1);
+	color: var(--clr-1-hvr);
+	border-color: var(--clr-1-hvr);
 }
 
 .document-tabs .docs-row > .row{

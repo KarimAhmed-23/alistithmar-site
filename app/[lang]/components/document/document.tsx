@@ -15,9 +15,9 @@ export default async function Statistics({ lang }: { lang: Locale }) {
               <div
                 className="document-banner"
                 style={{
-                  backgroundImage: `url(${'/img/Mask-Document.png'})`,
+                  backgroundImage: `url(${'/img/Mask-Document-2.png'})`,
                 }}>
-                <div className="banner-img">
+                <div className="banner-img d-none">
                   <Image
                     src="/img/EDITION.png"
                     alt="document banner"
