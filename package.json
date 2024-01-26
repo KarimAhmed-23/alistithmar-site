@@ -1,0 +1,34 @@
+{
+  "name": "capital-investment-front",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@formatjs/intl-localematcher": "^0.4.0",
+    "@types/node": "20.5.1",
+    "@types/react": "18.2.20",
+    "@types/react-dom": "18.2.7",
+    "bootstrap": "^5.3.2",
+    "chart.js": "^4.4.1",
+    "eslint": "8.47.0",
+    "eslint-config-next": "13.4.19",
+    "negotiator": "^0.6.3",
+    "next": "13.4.19",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.10.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "18.2.0",
+    "swiper": "^11.0.5",
+    "typescript": "5.1.6"
+  },
+  "devDependencies": {
+    "@types/negotiator": "^0.6.1",
+    "chartjs-plugin-datalabels": "^2.2.0",
+    "server-only": "^0.0.1"
+  }
+}

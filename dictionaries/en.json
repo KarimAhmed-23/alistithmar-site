@@ -1,0 +1,209 @@
+{
+  "navigation": {
+    "home": "Home",
+    "whoWeAre": "Who We Are",
+    "fundDocuments": "Fund Documents",
+    "boardOfDirectors": "Board of Directors",
+    "fundAssets": "Fund Assets",
+    "news": "News",
+    "contactUs": "Contact Us"
+  },
+  "page": {
+    "home": {
+      "header": {
+        "heroText": "Investment and Brokerage Company",
+        "heroSpan": "Investment Capital",
+        "heroTitle": "Subscription to Eric REIT Investment Fund Starts",
+        "heroDate": "From July 10, 2023, to July 20, 2023",
+        "heroMoreText": "Banks receiving individual subscription",
+        "heroShowMore": "Discover More"
+      },
+      "about": {
+        "maintitle": "About the Fund",
+        "description": "The diversified Eric REIT investment fund is a closed real estate investment fund publicly traded on the main market. It complies with Islamic Sharia principles and was established in the Kingdom of Saudi Arabia under the regulations of real estate investment funds. The fund's portfolio consists of seven income-generating properties diversified by sector and location. The fund aims to achieve periodic rental income and distribute at least 90% of the net profits semi-annually.",
+        "subtitle": "Total Fund Size",
+        "title": "SAR 1,210,000,000",
+        "boxSubTitle": "Number of Real Estate Assets",
+        "boxSubTitle2": "7 Real Estate Assets",
+        "percentage": "Occupancy Rate",
+        "percentageNumber": "97%",
+        "cityNumers": "Number of Cities",
+        "cityNum": "5 Cities",
+        "sectorsNumbers": "Number of Sectors",
+        "sectorsNumber": "4 Sectors",
+        "profitPolicy": "Profit Distribution Policy",
+        "prfitRules": "The fund aims to distribute profits semi-annually"
+      },
+      "document": {
+        "title": "Fund Documents"
+      },
+      "statistics": {
+        "firstTitle": "Diverse Real Estate Portfolio Across Saudi Arabia",
+        "secondTitle": "Diverse Real Estate Portfolio Across Saudi Arabia",
+        "firstLabels": [
+          "Riyadh",
+          "Abha",
+          "Khobar",
+          "Dammam",
+          "Jubail"
+        ],
+        "secondLabels": [
+          "Hotel",
+          "Logistics",
+          "Commercial",
+          "Office"
+        ]
+      },
+      "directors": {
+        "mainTitle": "Board of Directors",
+        "directorsData": [
+          {
+            "name": "Khaled bin Abdulaziz Al Rayes",
+            "position": "Chairman of the Board",
+            "about": "Mr. Khaled is the CEO of Investment Capital.",
+            "bio": "Mr. Khaled is the CEO of Investment Capital. He has over 20 years of practical experience in investment banking, investment management, direct investments, and private equity. He holds an MBA and a Master's in Financial Sciences from the University of Denver, Colorado, USA. He is also a certified financial analyst.",
+            "image": "/img/directors/Khaled Alrayes.jpg"
+          },
+          {
+            "name": "Mohammed bin Mutawuq Al Jamid",
+            "position": "Board Member",
+            "about": "Mr. Mohammed is the Head of Real Estate Investment Operations at Investment Capital.",
+            "bio": "Mr. Mohammed is the Head of Real Estate Investment Operations at Investment Capital. He has over 20 years of practical experience in operations related to various investment products, including stock brokerage, bond offerings, initial public offerings, private equity funds, and real estate investment funds. He holds a diploma in banking operations from the Institute of Public Administration in Riyadh.",
+            "image": "/img/directors/Mohammed Aljamed.jpg"
+          },
+          {
+            "name": "Eng. Abdullah bin Abdul Karim Al Mazrou",
+            "position": "Board Member",
+            "about": "Eng. Abdullah is the CEO of Al Mutlaq Real Estate Investment Company.",
+            "bio": "Eng. Abdullah is the CEO of Al Mutlaq Real Estate Investment Company. He has over 25 years of practical experience in facilities management and maintenance in the banking and telecommunications sectors. He holds a bachelor's degree in mechanical engineering from King Saud University, in addition to obtaining various professional certificates and courses in project and facilities management.",
+            "image": "/img/directors/Abduallah  Abdulkarem Almzarou.png"
+          },
+          {
+            "name": "Saleh bin Omar bin Haidara",
+            "position": "Board Member",
+            "about": "Mr. Saleh is the CEO of Finance at Al Mutlaq Real Estate Investment Company.",
+            "bio": "Mr. Saleh is the CEO of Finance at Al Mutlaq Real Estate Investment Company. He has over 15 years of practical experience in financial management and accounting in the real estate sector. He holds a bachelor's degree in accounting from the University of Jordan, and he has obtained various professional certificates and courses in accounting and financial management.",
+            "image": "/img/directors/Saleh Bin Hidarah.png"
+          }
+        ]
+      }
+      ,
+      "funds": {
+        "title": "Fund Assets",
+        "fundsData": [
+          {
+            "title": "Galleria Mall",
+            "imageSrc": "/img/funds/gallery-mall.png",
+            "altText": "gallery-mall",
+            "details": [
+              { "key": "Ownership Type", "value": "Usufruct Contract" },
+              { "key": "Real Estate Type", "value": "Commercial" },
+              { "key": "City", "value": "Al Jubail" },
+              { "key": "Land Area", "value": "21,572 m2" }
+            ]
+          },
+          {
+            "title": "Somerset Hotel",
+            "imageSrc": "/img/funds/Somerset.jpg",
+            "altText": "Somerset",
+            "details": [
+              { "key": "Ownership Type", "value": "Freehold" },
+              { "key": "Real Estate Type", "value": "Hotel" },
+              { "key": "City", "value": "Al Khobar" },
+              { "key": "Land Area", "value": "3,506.5 m2" }
+            ]
+          },
+          {
+            "title": "Citadine Hotel",
+            "imageSrc": "/img/funds/cytadine.jpg",
+            "altText": "cytadine",
+            "details": [
+              { "key": "Ownership Type", "value": "Freehold" },
+              { "key": "Real Estate Type", "value": "Hotel" },
+              { "key": "City", "value": "Abha" },
+              { "key": "Land Area", "value": "5,000 m2" }
+            ]
+          },
+          {
+            "title": "The Roof",
+            "imageSrc": "/img/funds/the-roof.jpg",
+            "altText": "the-roof",
+            "details": [
+              { "key": "Ownership Type", "value": "Freehold" },
+              { "key": "Real Estate Type", "value": "Commercial" },
+              { "key": "City", "value": "Riyadh" },
+              { "key": "Land Area", "value": "11,880 m2" }
+            ]
+          },
+          {
+            "title": "Corniche Plaza",
+            "imageSrc": "/img/funds/plaza.webp",
+            "altText": "plaza",
+            "details": [
+              { "key": "Ownership Type", "value": "Freehold" },
+              { "key": "Real Estate Type", "value": "Commercial / Office" },
+              { "key": "City", "value": "Dammam" },
+              { "key": "Land Area", "value": "9,493.03 m2" }
+            ]
+          },
+          {
+            "title": "Warehouses Al-Mashaqil",
+            "imageSrc": "/img/funds/emirates-logisticsllc.jpg",
+            "altText": "emirates-logisticsllc",
+            "details": [
+              { "key": "Ownership Type", "value": "Freehold" },
+              { "key": "Real Estate Type", "value": "Logistics" },
+              { "key": "City", "value": "Riyadh" },
+              { "key": "Land Area", "value": "21,275 m2" }
+            ]
+          },
+          {
+            "title": "Ericsson Saudi Building",
+            "imageSrc": "/img/funds/ericsson.jpg",
+            "altText": "ericsson",
+            "details": [
+              { "key": "Ownership Type", "value": "Freehold" },
+              { "key": "Real Estate Type", "value": "Office" },
+              { "key": "City", "value": "Riyadh" },
+              { "key": "Land Area", "value": "693 m2" }
+            ]
+          }
+        ]
+      },
+      "contact": {
+        "title": "Contact Us",
+        "form": {
+          "name": "Name",
+          "phone": "Phone Number",
+          "email": "Email",
+          "subject": "Subject",
+          "message": "Message",
+          "submit": "Submit"
+        }
+      },
+      "footer": {
+        "about": "Investment and Brokerage Company 'Investment Capital'",
+        "about1": "Manager of the diversified Eric REIT investment fund.",
+        "about2": "A Saudi company licensed by the Capital Market Authority with license number (37-11156).",
+        "contact": "Contact Us",
+        "mail": "P.O. Box: 6888",
+        "location": "Riyadh: 11452",
+        "road": "King Fahad Subsidiary Road, Al Aqiq,",
+        "secondLocation": "13515 Riyadh",
+        "mail2": "IPO-REIT@icap.com.sa",
+        "phone": "0112547666",
+        "help": "Helpful Links",
+        "investment": "Ministry of Investment",
+        "money": "Capital Market Authority",
+        "trade": "Saudi Stock Exchange (Tadawul)",
+        "property": "General Authority for Real Estate",
+        "helpLinks": "Helpful Links",
+        "terms": "Terms of Use",
+        "responbility": "Disclaimer",
+        "secret": "Confidentiality and Security",
+        "rights": "All Rights Reserved ©",
+        "company": "Investment and Brokerage Company 'Investment Capital'"
+      }
+    }
+  }
+}
