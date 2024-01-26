@@ -278,7 +278,7 @@ button {
 	outline: none;
 	box-shadow: none;
 	padding: 0;
-	color: var(---dark);
+	color: var(--dark);
 }
 
 
