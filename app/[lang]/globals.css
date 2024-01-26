@@ -102,7 +102,7 @@ body{
 	text-align: right;
 	scroll-behavior: smooth;
 	overflow-x: hidden;
-	color: #1A1A1A;
+	color: var(--dark);
 	touch-action: manipulation;
 	
 }
@@ -118,7 +118,7 @@ body[data-panel="noScroll"] {
 
 
 a{
-	color: var(---dark);
+	color: var(--dark);
 	outline: none;
 }
 a , a:hover{
@@ -278,6 +278,7 @@ button {
 	outline: none;
 	box-shadow: none;
 	padding: 0;
+	color: var(---dark);
 }
 
 
