@@ -322,7 +322,7 @@ button {
 	backdrop-filter: blur(10px);
 	z-index: 10;
 	color: var(--clr-1);
-	margin: 0 20px;
+	/* margin: 0 20px; */
 
 }
 .slider-arrows .arrow-btn.with-h{
@@ -368,7 +368,7 @@ body:not(:lang(ar)) .slider-arrows .arrow-btn svg{
 	gap: .25rem;
 	flex-wrap: wrap;
 	position: relative;
-	inset: auto;
+	inset: auto !important;
 
 }
 
@@ -592,13 +592,17 @@ body:not(:lang(ar)) .slider-arrows .arrow-btn svg{
 	top: 0;
 	width: 100%;
 	height: var(--nav-h);
-	background: rgba(255, 255, 255, 0.44);
+	background: rgba(255, 255, 255, 0.7);
 	box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.12);
+	/* backdrop-filter: blur(10px); */
 	transition: all .3s ease;
 	
 }
 .top-nav.scroll{
 	background:#fff ;
+}
+.top-nav.active{
+	backdrop-filter: none;
 }
 .nav-content{
 	display: flex;
@@ -625,6 +629,7 @@ body:not(:lang(ar)) .slider-arrows .arrow-btn svg{
 .nav-content .nav-logo img{
 	
 	max-height:70px ;
+	width: auto;
 }
 
 .nav-content .nav-list{
@@ -755,7 +760,10 @@ stroke-dashoffset: -134;
 
 @media(min-width:992px) and (max-width:1199.98px){
 	.nav-content .nav-list{
-			gap: 1.25rem;
+			gap: 1rem;
+	}
+	.nav-content .nav-logo img{
+		max-height: 45px;
 	}
 }
 
@@ -987,6 +995,8 @@ stroke-dashoffset: -134;
 	flex-direction: column;
 	align-items: stretch;
 	justify-content: flex-end;
+	background-color: #000;
+	color: #fff !important;
 }
 .about-area .statistics-box .box-item .box-icon{
 	--dim:83px;
@@ -1007,7 +1017,7 @@ stroke-dashoffset: -134;
 
 .about-area .statistics-box .box-item .box-img img{
 	height: 300px;
-	object-fit: cover;
+	object-fit: contain;
 	width: 100%;
 	border-radius: var(--border-r-3);
 }
@@ -1029,6 +1039,11 @@ stroke-dashoffset: -134;
 .about-area .statistics-box .box-item .box-texts .title span{
 	display: inline-block;
 }
+
+.about-area .statistics-box .box-item.full-box .box-texts .title{
+	color: var(--clr-1);
+}
+
 
 .about-area .statistics-box .boxes-row{
 	--custom-gap:var(--box-py-res);
@@ -1248,13 +1263,20 @@ stroke-dashoffset: -134;
 	z-index: 2;
 }
 
-
+.statistics-area .chart-title{
+	font-size: var(--title-3);
+	padding-bottom: 1.5rem;
+	text-align: center;
+	font-weight: bold;
+	max-width: 450px;
+	margin: auto;
+}
 .statistics-area .chart-box{
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	padding: 1.5rem var(--box-px-sm);
-	height: 100%;
+	/* height: 100%; */
 	background-color: #fff;
 	box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.15);
 	border-radius: var(--border-r-3);
@@ -1317,10 +1339,10 @@ stroke-dashoffset: -134;
 }
 
 .statistics-area .container > .row:first-child{
-	margin-bottom: var(--box-py-res);
+	margin-bottom: var(--box-py);
 }
 .statistics-area .container > .row{
-	gap: var(--box-py-res) 0 ;
+	gap: var(--box-py) 0 ;
 }
 
 
@@ -1328,6 +1350,9 @@ stroke-dashoffset: -134;
 	.statistics-banner{
 			min-height: auto;
 			height: 300px;
+	}
+	.statistics-area .chart-title{
+		max-width: none;
 	}
 }
 
@@ -1357,8 +1382,9 @@ stroke-dashoffset: -134;
 	gap: var(--box-py-res) 0;
 }
 
-.directors-slider{
-	overflow: visible;
+.directors-slider,
+.directors-slider .swiper-wrapper{
+	overflow: visible !important;
 }
 
 .director-box{
@@ -1451,7 +1477,7 @@ stroke-dashoffset: -134;
 			width: 300px;
 	}
 	.director-box img{
-			height: 250px;
+			height: 300px;
 	}
 }
 
@@ -1472,8 +1498,9 @@ stroke-dashoffset: -134;
 	gap: var(--box-py-res) 0;
 }
 
-.funds-slider{
-	overflow: visible;
+.funds-slider,
+.funds-slider .swiper-wrapper{
+	overflow: visible !important;
 }
 
 .fund-box{

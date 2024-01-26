@@ -30,7 +30,7 @@ export default async function About({ lang }: { lang: Locale }) {
                   <div className="box-item full-box">
                     <div className="box-img">
                       <Image
-                        src="/img/about-total.png"
+                        src="/img/Layer_1.png"
                         alt="about-total"
                         width={246}
                         height={59}

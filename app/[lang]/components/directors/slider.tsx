@@ -52,7 +52,7 @@ function Slider({ directorsData }: SliderProps) {
           spaceBetween={12}
           grabCursor={true}
           loop={false}
-          speed={600}
+          speed={500}
           pagination={{ el: '.directors-slider-container .swiper-pagination', clickable: true }}
           navigation={{ prevEl: '.directors-slider-container .prev-btn', nextEl: '.directors-slider-container .next-btn' }}
           breakpoints={{

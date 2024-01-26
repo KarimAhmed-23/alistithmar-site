@@ -12,7 +12,7 @@ export default async function Header({ lang }: { lang: Locale }) {
       className="section-style hero-section w-bg"
       id="heroSection"
       style={{
-        backgroundImage: `url(${'/img/hero.png'})`,
+        backgroundImage: `url(${'/img/hero-4.png'})`,
       }}>
       <div className="hero-area w-100">
         <div className="container">

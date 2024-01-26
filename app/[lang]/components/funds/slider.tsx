@@ -51,7 +51,7 @@ function Slider({ fundsData }: FundsSliderProps) {
 					spaceBetween={12}
 					grabCursor={true}
 					loop={false}
-					speed={600}
+					speed={500}
 					pagination={{ el: '.funds-slider-container .swiper-pagination', clickable: true }}
 					navigation={{ prevEl: '.funds-slider-container .prev-btn', nextEl: '.funds-slider-container .next-btn' }}
 					breakpoints={{
