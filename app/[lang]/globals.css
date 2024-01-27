@@ -587,7 +587,7 @@ body:not(:lang(ar)) .slider-arrows .arrow-btn svg{
 	--nav-h:80px;
 }
 .top-nav{
-	position: fixed;
+	position: static;
 	z-index: 999;
 	left: 0;
 	top: 0;
