@@ -82,9 +82,9 @@ function DocumentTabs({ lang }: DocumentTabsProps) {
 													<Link
 														href={file.asset.data?.attributes.url || ''} 
 														type="button"
-														target='_blank'
 														className="download-btn"
 														role="downlaod"
+														download={file.FileName}
 														title="downlaod">
 														<svg
 															width="24"
