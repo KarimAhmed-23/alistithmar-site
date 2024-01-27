@@ -32,12 +32,12 @@ function Meta({lang}: MataProps) {
       <meta charSet="UTF-8" />
       <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-			<meta name="keywords" content={seo?.keywords} />
-			<meta name="description" content={seo?.metaDescription} />
+			<meta name="keywords" content={seo?.keywords ||''} />
+			<meta name="description" content={seo?.metaDescription || ''} />
 			<meta property="og:title" content={seo?.metaTitle} />
-			<meta property="og:description" content={seo?.metaDescription} />
-			<meta property="og:image" content={seo?.metaSocial[0].image.data.attributes.url} />
-      <title>{pageName}</title>
+			<meta property="og:description" content={seo?.metaDescription || ''} />
+			<meta property="og:image" content={seo?.metaSocial[0].image.data.attributes.url || ''} />
+      <title>{pageName || ''}</title>
       <link rel="icon" href="/img/logo-sm.svg" sizes="16x16 32x32 48x48 64x64" />
     </>
   );
