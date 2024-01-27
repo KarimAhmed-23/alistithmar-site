@@ -12,7 +12,7 @@ interface ReportFile {
 }
 
 interface MetaImage {
-	data: Data | null;
+	data: Data;
 }
 
 interface Data {
@@ -22,4 +22,26 @@ interface Data {
 
 interface DataAttributes {
 	url: string;
+}
+
+export interface SEO {
+	id: number;
+	keywords: string;
+	metaDescription: string;
+	metaSocial: MetaSocial[];
+	metaTitle: string;
+}
+
+export interface MetaSocial {
+	description: string;
+	id: number;
+	image: {
+		data: {
+			attributes: {
+				url: string;
+			}
+		}
+	};
+	socialNetwork: string;
+	title: string;
 }

@@ -66,7 +66,11 @@ function DocumentTabs({ lang }: DocumentTabsProps) {
 							>
 								<div className="docs-row">
 									<div className="row row-cols-md-2">
-										{document.ReportFile.map((file, fileIndex) => (
+										{documents.length === 0 ? (
+        <Alert variant="info" className="text-center h-100">
+          No data available.
+        </Alert>
+      ) : document.ReportFile.map((file, fileIndex) => (
 											<div key={fileIndex} className="doc-wrap">
 												<div className="doc-box">
 													<div className="doc-info">
@@ -80,11 +84,13 @@ function DocumentTabs({ lang }: DocumentTabsProps) {
 														<span className="doc-title">{file.FileName}</span>
 													</div>
 													<Link
-														href={file.asset.data?.attributes.url || ''} 
+														// href={file.asset.data?.attributes.url} 
+														href={`${process.env.NEXT_PUBLIC_INVESTMENT_URL}${file.asset.data?.attributes.url}`}
+														target='_self'
 														type="button"
 														className="download-btn"
 														role="downlaod"
-														download={file.FileName}
+														download
 														title="downlaod">
 														<svg
 															width="24"
