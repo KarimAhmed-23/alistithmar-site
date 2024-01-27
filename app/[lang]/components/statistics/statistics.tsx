@@ -1,9 +1,10 @@
 // import { getDictionary } from '@/app/utils/dictionaries';
 // import { Locale } from '@/i18n/i18n-config';
 import React from 'react';
-import PieChart from './PieChart';
+import FirstChart from './FirstChart';
 import { Locale } from '@/i18n.config';
 import { getDictionary } from '@/lib/dictionary';
+import SecondChart from './SecondChart';
 
 
 
@@ -62,7 +63,7 @@ export default async function Statistics({ lang }: { lang: Locale }) {
                <h4 className='chart-title'>{page.home.statistics.firstTitle}</h4>
               <div className="chart-box">
                 <div className="pie-chart" id="pieChart1">
-                <PieChart {...chartData} lang={lang}/>
+                <FirstChart {...chartData} lang={lang}/>
                 </div>
               </div>
             </div>
@@ -71,7 +72,7 @@ export default async function Statistics({ lang }: { lang: Locale }) {
              <div className="chart-box">
                 
                 <div className="pie-chart" id="pieChart2">
-                <PieChart {...chartData2} lang={lang}/>
+                <SecondChart {...chartData2} lang={lang}/>
                 </div>
               </div>
 
