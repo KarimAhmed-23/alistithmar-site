@@ -1531,6 +1531,7 @@ stroke-dashoffset: -134;
 	background-color: rgba(255, 255, 255, 0.80);
 	backdrop-filter: blur(10px);
 	padding: 1rem var(--box-px-xs);
+	height: 100%;
 }
 .fund-box .box-img img{
 	width: 100%;
@@ -1552,7 +1553,7 @@ stroke-dashoffset: -134;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	gap: .5rem 1rem;
+	gap: .5rem var(--box-px-xs);
 	margin-bottom: .75rem;
 }
 .fund-box .box-list li:last-child{
@@ -1565,6 +1566,9 @@ stroke-dashoffset: -134;
 }
 .fund-box .box-list li .key{
 	font-weight: bold;
+}
+.fund-box .box-list li .val{
+	text-align: end;
 }
 
 @media (max-width:575.98px){
