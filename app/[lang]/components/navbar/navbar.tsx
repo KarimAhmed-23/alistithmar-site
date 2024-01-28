@@ -37,7 +37,7 @@ export default function NavBar({ lang }: { lang: Locale }) {
           <div className="nav-logo">
             <Link href={`/${lang}`} className="d-block">
               <Image
-                src="/img/logo-black.svg"
+                src={lang === "en" ? '/img/logo-ltr-black.svg' : '/img/logo-black.svg'}
                 alt="Alistithmar"
                 width={246}
                 height={59}
