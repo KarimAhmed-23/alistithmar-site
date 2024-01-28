@@ -15,7 +15,7 @@ export default async function Footer({ lang }: { lang: Locale }) {
             <div className="col-lg-4 col-md-12">
               <div className="footer-col footer-about">
                 <div className="footer-logo mb-4 pe-2">
-                  <Link className="d-block" href="/">
+                  <Link className="d-block" href={`/${lang}`}>
                     <Image
                       src={lang === "en" ? '/img/logo-ltr-light.svg' : '/img/logo-light.svg'}
                       alt="Alistithmar"
