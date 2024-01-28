@@ -8,7 +8,6 @@ export default async function Directors({ lang }: { lang: Locale }) {
   
   return (
     <section className="section-style directors-section w-bg  w-mr mb-0" id="directorsSection" style={{ backgroundImage: `url(${'/img/Mask-Director.png'})` }}>
-
       <div className=" directors-area">
         <div className="container">
           <h1 className="main-title more-mb">

@@ -41,7 +41,7 @@ const PieChart: FC<PieChartProps> = ({ labels, data, backgroundColor, lang }) =>
 
   return (
     <div>
-      <Doughnut data={chartData} width={350} height={350}/>
+      <Doughnut data={chartData} width={350} height={350} />
     </div>
   );
 };

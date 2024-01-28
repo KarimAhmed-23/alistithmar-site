@@ -18,7 +18,6 @@ function Meta({lang}: MataProps) {
         const data = await response.json();
         const seo = data.data[0].attributes.seo;
 				SetPageNme(data.data[0].attributes.PageName)
-
         setSeo(seo);
       } catch (error) {
         setError('An error occurred while fetching data');

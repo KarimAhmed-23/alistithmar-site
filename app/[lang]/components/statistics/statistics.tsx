@@ -60,19 +60,19 @@ export default async function Statistics({ lang }: { lang: Locale }) {
 
           <div className='row'>
             <div className='col-lg-6'>
-               <h4 className='chart-title'>{page.home.statistics.firstTitle}</h4>
+              <h4 className='chart-title'>{page.home.statistics.firstTitle}</h4>
               <div className="chart-box">
                 <div className="pie-chart" id="pieChart1">
-                <FirstChart {...chartData} lang={lang}/>
+                  <FirstChart {...chartData} lang={lang} />
                 </div>
               </div>
             </div>
             <div className='col-lg-6'>
-             <h4 className='chart-title'>{page.home.statistics.secondTitle}</h4>
-             <div className="chart-box">
-                
+              <h4 className='chart-title'>{page.home.statistics.secondTitle}</h4>
+              <div className="chart-box">
+
                 <div className="pie-chart" id="pieChart2">
-                <SecondChart {...chartData2} lang={lang}/>
+                  <SecondChart {...chartData2} lang={lang} />
                 </div>
               </div>
 

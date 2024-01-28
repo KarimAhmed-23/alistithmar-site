@@ -18,31 +18,31 @@ function DocumentTabs({ lang }: DocumentTabsProps) {
 		setActiveTab(target);
 	};
 	useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch(`${process.env.NEXT_PUBLIC_INVESTMENT_URL}/api/pages?populate=deep&locale=${lang}`);
-        const data = await response.json();
-        const reportTabs = data.data[0].attributes.Reports.ReportTab;
+		const fetchData = async () => {
+			try {
+				const response = await fetch(`${process.env.NEXT_PUBLIC_INVESTMENT_URL}/api/pages?populate=deep&locale=${lang}`);
+				const data = await response.json();
+				const reportTabs = data.data[0].attributes.Reports.ReportTab;
 
-        if (reportTabs.length > 0) {
-          // Set the initial activeTab to the first document's TabTitle
-          setActiveTab(reportTabs[0].TabTitle);
-        }
+				if (reportTabs.length > 0) {
+					// Set the initial activeTab to the first document's TabTitle
+					setActiveTab(reportTabs[0].TabTitle);
+				}
 
-        setDocuments(reportTabs);
-      } catch (error) {
-        setError('An error occurred while fetching data');
-      }
-    };
+				setDocuments(reportTabs);
+			} catch (error) {
+				setError('An error occurred while fetching data');
+			}
+		};
 
-    fetchData();
-  }, [lang]);
+		fetchData();
+	}, [lang]);
 	return (
 		<>
 			{error ? (
-				<Alert  variant='danger' className='text-center h-100'>
-				{error}
-			</Alert>
+				<Alert variant='danger' className='text-center h-100'>
+					{error}
+				</Alert>
 			) : (
 				<div className="document-tabs tabs-area">
 					<div className="tabs-btn-list">
@@ -67,10 +67,10 @@ function DocumentTabs({ lang }: DocumentTabsProps) {
 								<div className="docs-row">
 									<div className="row row-cols-md-2">
 										{documents.length === 0 ? (
-        <Alert variant="info" className="text-center h-100">
-          No data available.
-        </Alert>
-      ) : document.ReportFile.map((file, fileIndex) => (
+											<Alert variant="info" className="text-center h-100">
+												No data available.
+											</Alert>
+										) : document.ReportFile.map((file, fileIndex) => (
 											<div key={fileIndex} className="doc-wrap">
 												<div className="doc-box">
 													<div className="doc-info">
@@ -84,8 +84,7 @@ function DocumentTabs({ lang }: DocumentTabsProps) {
 														<span className="doc-title">{file.FileName}</span>
 													</div>
 													<Link
-														// href={file.asset.data?.attributes.url} 
-														href={`${process.env.NEXT_PUBLIC_INVESTMENT_URL}${file.asset.data?.attributes.url}`}
+														href={`${file.asset.data?.attributes.url}`}
 														target='_self'
 														type="button"
 														className="download-btn"

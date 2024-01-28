@@ -26,7 +26,7 @@ const SecondChart: FC<PieChartProps> = ({ labels, data, backgroundColor, lang })
         borderWidth: 1,
         hoverOffset: 20,
         datalabels: {
-					opacity : 0
+          opacity: 0
         },
       },
     ],
@@ -34,7 +34,7 @@ const SecondChart: FC<PieChartProps> = ({ labels, data, backgroundColor, lang })
 
   return (
     <div>
-      <Doughnut data={chartData} width={350} height={350}/>
+      <Doughnut data={chartData} width={350} height={350} />
     </div>
   );
 };

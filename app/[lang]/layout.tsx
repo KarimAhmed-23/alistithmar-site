@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Almarai } from 'next/font/google';
 import './globals.css';
+import localFont from 'next/font/local'
 import { i18n } from '@/i18n.config';
 import { RootLayoutProps } from '@/types/Layout.types';
 import Navbar from './components/navbar/navbar';
@@ -8,13 +8,25 @@ import Footer from './components/footer/footer';
 import Meta from './components/navbar/meta';
 
 
-const almarai = Almarai({
-  subsets: ['arabic'],
-  weight: ['300', '400', '700'],
-  display: 'swap',
-  style: ['normal'],
-  variable: '--font-almarai',
-});
+const CoText = localFont({
+  src: [
+    {
+      path: './font/CoText-Regular.eot',
+      weight: '400',
+      style: 'normal',
+    },
+    {
+      path: './font/CoText-Regular.woff',
+      weight: '700',
+      style: 'normal',
+    },
+    {
+      path: './font/CoText-Regular.woff2',
+      weight: '900',
+      style: 'normal',
+    },
+  ],
+})
 
 
 // generate static params
@@ -29,7 +41,7 @@ export default function RootLayout({ children, params }: RootLayoutProps) {
       <head>
         <Meta  lang={params.lang}/>
       </head>
-      <body className={almarai.className}>
+      <body className={CoText.className}>
         <Navbar lang={params.lang} />
         <main>{children}</main>
         <Footer lang={params.lang}/>
