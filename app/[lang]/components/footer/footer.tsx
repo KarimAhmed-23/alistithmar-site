@@ -14,10 +14,10 @@ export default async function Footer({ lang }: { lang: Locale }) {
           <div className="row  gx-md-5">
             <div className="col-lg-4 col-md-12">
               <div className="footer-col footer-about">
-                <div className="footer-logo mb-4 ps-2">
+                <div className="footer-logo mb-4 pe-2">
                   <Link className="d-block" href="/">
                     <Image
-                      src="/img/logo-light.svg"
+                      src={lang === "en" ? '/img/logo-ltr-light.svg' : '/img/logo-light.svg'}
                       alt="Alistithmar"
                       width={246}
                       height={59}
