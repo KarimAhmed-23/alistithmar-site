@@ -34,6 +34,19 @@
 
 /* @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap'); */
 
+@font-face {
+    font-family: 'Co-Text';
+    src: url('CoText-Regular.eot');
+    src: url('CoText-Regular.eot?#iefix') format('embedded-opentype'),
+        url('CoText-Regular.woff2') format('woff2'),
+        url('CoText-Regular.woff') format('woff'),
+        url('CoText-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 
 @media (prefers-reduced-motion: no-preference){
     
@@ -104,6 +117,7 @@ body{
 	overflow-x: hidden;
 	color: var(--dark);
 	touch-action: manipulation;
+	font-family: 'Co-Text' !important;
 	
 }
 
@@ -587,7 +601,7 @@ body:not(:lang(ar)) .slider-arrows .arrow-btn svg{
 	--nav-h:80px;
 }
 .top-nav{
-	position: static;
+	position: fixed;
 	z-index: 999;
 	left: 0;
 	top: 0;
