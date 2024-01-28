@@ -777,6 +777,9 @@ stroke-dashoffset: -134;
 	.nav-content .nav-list{
 			gap: 1rem;
 	}
+	.nav-content .nav-list .list-item .item-link{
+		font-size: 14px;
+	}
 	.nav-content .nav-logo img{
 		max-height: 45px;
 	}
@@ -1301,6 +1304,11 @@ stroke-dashoffset: -134;
 	align-items: center;
 	justify-content: center;
 	width: 100%;
+}
+
+.statistics-area .row > div{
+	display: flex;
+	flex-direction: column;
 }
 
 
