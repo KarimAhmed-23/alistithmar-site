@@ -83,7 +83,7 @@ function DocumentTabs({ lang }: DocumentTabsProps) {
 														</svg>
 														<span className="doc-title">{file.FileName}</span>
 													</div>
-													<Link
+													{file.asset.data?.attributes?.url ? <a
 														href={`${file.asset.data?.attributes.url}`}
 														target='_self'
 														type="button"
@@ -105,7 +105,9 @@ function DocumentTabs({ lang }: DocumentTabsProps) {
 																</clipPath>
 															</defs>
 														</svg>
-													</Link>
+													</a> : <Alert variant='danger' className='text-center'>
+														File download link is undefined please update the file.
+													</Alert>}
 												</div>
 											</div>
 										))}

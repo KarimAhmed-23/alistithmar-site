@@ -21,7 +21,7 @@ interface Data {
 }
 
 interface DataAttributes {
-	url: string;
+	url: string | undefined;
 }
 
 export interface SEO {

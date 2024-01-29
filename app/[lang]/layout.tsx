@@ -12,18 +12,18 @@ const CoText = localFont({
   src: [
     {
       path: './font/CoText-Regular.eot',
-      weight: '400',
-      style: 'normal',
+      weight: '300',
+      style: 'swap',
     },
     {
       path: './font/CoText-Regular.woff',
-      weight: '700',
-      style: 'normal',
+      weight: '400',
+      style: 'swap',
     },
     {
       path: './font/CoText-Regular.woff2',
-      weight: '900',
-      style: 'normal',
+      weight: '700',
+      style: 'swap',
     },
   ],
 })
