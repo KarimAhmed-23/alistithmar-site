@@ -134,7 +134,7 @@ export default async function Footer({ lang }: { lang: Locale }) {
           <div className="wrapper">
             <p className="mb-0 order-2 order-sm-1">
               {page.home.footer.rights}
-              <span className="px-2">{new Date().getFullYear()}</span>
+              {/* <span className="px-2">{new Date().getFullYear()}</span> */}
               {page.home.footer.company}
             </p>
             <div className="social-links order-1 order-sm-2">

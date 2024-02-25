@@ -26,7 +26,14 @@ const SecondChart: FC<PieChartProps> = ({ labels, data, backgroundColor, lang })
         borderWidth: 1,
         hoverOffset: 20,
         datalabels: {
-          opacity: 0
+          formatter: (value: any, context: any) => {
+            const dataset = context.chart.data.datasets[context.datasetIndex];
+            const total = dataset.data.reduce((acc: number, val: number) => acc + val, 0);
+            const percentage = ((value / total) * 100).toFixed(2) + '%';
+            return percentage;
+          },
+          align: lang === 'ar' ? -1 : 'center' as const,
+          color: 'white',
         },
       },
     ],

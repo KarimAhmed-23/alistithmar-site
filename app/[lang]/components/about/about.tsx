@@ -37,7 +37,7 @@ export default async function About({ lang }: { lang: Locale }) {
                         className="img-fluid"
                       />
                     </div>
-                    <div className="box-texts">
+                    <div className="box-texts d-none">
                       <span className="sub-title">
                         {page.home.about.subtitle}
                       </span>
@@ -48,7 +48,7 @@ export default async function About({ lang }: { lang: Locale }) {
                 <div className="col-lg-8 about-col">
                   <div className="boxes-row">
                     <div className="row gx-4">
-                      <div className="col-md-6">
+                    <div className="col-md-6">
                         <div className="box-item">
                           <div className="box-icon">
                             <svg
@@ -65,7 +65,7 @@ export default async function About({ lang }: { lang: Locale }) {
                               {page.home.about.subtitle}
                             </span>
                             <h4 className="title">
-                              {page.home.about.boxSubTitle2}
+                            {page.home.about.title}
                             </h4>
                           </div>
                         </div>
@@ -73,13 +73,40 @@ export default async function About({ lang }: { lang: Locale }) {
                       <div className="col-md-6">
                         <div className="box-item">
                           <div className="box-icon">
-                            <svg
+
+                            <svg width={56} height={56} viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M50.0809 4.00177L31.6025 5.6817C31.4247 5.69674 31.2562 5.76804 31.1216 5.88527C30.987 6.0025 30.8933 6.15956 30.854 6.33366C30.8147 6.50777 30.8318 6.68988 30.903 6.85357C30.9741 7.01726 31.0956 7.15403 31.2497 7.24403L38.6075 11.6622L35.5838 14.0813H9.83993C9.61717 14.0813 9.40353 14.1698 9.24601 14.3274C9.08849 14.4849 9 14.6985 9 14.9213V45.16C9 45.3828 9.08849 45.5965 9.24601 45.754C9.40353 45.9115 9.61717 46 9.83993 46H40.0774C40.3002 46 40.5138 45.9115 40.6713 45.754C40.8288 45.5965 40.9173 45.3828 40.9173 45.16V19.4151L43.3363 16.3912L47.7543 23.7493C47.8287 23.8747 47.9344 23.9786 48.061 24.0508C48.1877 24.1229 48.3309 24.1609 48.4767 24.1609C48.538 24.1691 48.6001 24.1691 48.6615 24.1609C48.8347 24.1227 48.9915 24.0306 49.1092 23.8978C49.2269 23.765 49.2995 23.5984 49.3166 23.4217L50.9965 4.94253C51.0078 4.8195 50.9918 4.69549 50.9497 4.57934C50.9076 4.46319 50.8404 4.35776 50.7529 4.27056C50.668 4.1785 50.5636 4.10658 50.4474 4.06008C50.3311 4.01357 50.2059 3.99365 50.0809 4.00177Z"/>
+                            </svg>
+
+
+                          </div>
+                          <div className="box-texts">
+                            <span className="sub-title">
+                              {page.home.about.boxSubTitle}
+                            </span>
+                            <h4 className="title">
+                              {page.home.about.boxSubTitle2}
+                            </h4>
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <div className="row gx-4">
+                    <div className="col-md-6">
+                        <div className="box-item">
+                          <div className="box-icon">
+                          <svg
                               width="56"
                               height="56"
                               viewBox="0 0 56 56"
                               fill="none"
                               xmlns="http://www.w3.org/2000/svg">
-                              <path d="M48.1916 45.3202V11.7007L21.6568 6V45.3202H19.7684V15.9884L7.80842 19.0093V45.3202H5V48H51V45.3202H48.1916ZM11.7789 23.3944H15.9432V27.5847H11.7789V23.3944ZM11.7789 30.6543H15.9432V34.8445H11.7789V30.6543ZM11.7789 37.8654H15.9432V42.1044H11.7789V37.8654ZM40.0568 16.0858H44.2211V20.2761H40.0568V16.0858ZM40.0568 23.3457H44.2211V27.536H40.0568V23.3457ZM40.0568 30.6056H44.2211V34.7958H40.0568V30.6056ZM40.0568 37.8654H44.2211V42.0557H40.0568V37.8654ZM32.8421 16.0858H37.0063V20.2761H32.8421V16.0858ZM32.8421 23.3457H37.0063V27.536H32.8421V23.3457ZM32.8421 30.6056H37.0063V34.7958H32.8421V30.6056ZM25.6274 16.0858H29.7916V20.2761H25.6274V16.0858ZM25.6274 23.3457H29.7916V27.536H25.6274V23.3457ZM25.6274 30.6056H29.7916V34.7958H25.6274V30.6056ZM25.6274 37.8654H29.7916V42.0557H25.6274V37.8654ZM32.8421 37.8654H37.0063V45.3202H32.8421V37.8654Z" />
+                              <path
+                                fillRule="evenodd"
+                                clipRule="evenodd"
+                                d="M23.6353 9.20842H27.0233V4.47412H28.5295V9.20842H32.3656V21.5365L29.4267 22.6097V45.6078H28.2479V15.734H23.6353V9.20842ZM36.0421 17.8197V20.1089L39.1289 19.0669L39.7565 18.8375V18.8546V45.6079H47.7918V17.8197H46.8942V15.1669H45.915V13.6979H42.3882V15.1669H40.7357V17.8197H36.0421ZM30.3694 45.6078H38.8131V20.1852L30.3694 23.269V45.6078ZM17.2378 16.6769H15.5551V19.8965H17.3646V37.9762H19.0231H19.0236V45.6077H27.3044V16.6769H22.6923H20.5806V15.1461H17.2378V16.6769ZM8.35816 38.9187H10.0187V20.8394H14.6127H16.4222V38.9187H18.0812V45.6077H8.35816V38.9187ZM7.41542 46.5507H5.48831L4.00073 49.5258H52L50.5124 46.5507H48.7342H39.7559H38.813H30.3693H29.4263H28.2475H27.3046H19.0234H18.0814H7.41542Z"
+                              />
                             </svg>
                           </div>
                           <div className="box-texts">
@@ -92,8 +119,6 @@ export default async function About({ lang }: { lang: Locale }) {
                           </div>
                         </div>
                       </div>
-                    </div>
-                    <div className="row gx-4">
                       <div className="col-md-6">
                         <div className="box-item">
                           <div className="box-icon">
@@ -118,7 +143,10 @@ export default async function About({ lang }: { lang: Locale }) {
                           </div>
                         </div>
                       </div>
-                      <div className="col-md-6">
+                      
+                    </div>
+                    <div className="row gx-4">
+                    <div className="col-md-6">
                         <div className="box-item">
                           <div className="box-icon">
                             <svg
@@ -144,9 +172,7 @@ export default async function About({ lang }: { lang: Locale }) {
                           </div>
                         </div>
                       </div>
-                    </div>
-                    <div className="row gx-4">
-                      <div className="col-12">
+                      <div className="col-md-6">
                         <div className="box-item">
                           <div className="box-icon">
                             <svg

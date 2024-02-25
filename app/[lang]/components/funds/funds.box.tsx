@@ -15,9 +15,10 @@ const FundsBox: FC<FundsBoxProps> = ({ title, imageSrc, altText, details }) => {
         <Image
           src={imageSrc}
           alt={altText}
-          width={200}
-          height={1000}
+          width={400}
+          height={400}
           className="img-fluid"
+          loading='eager'
         />
       </div>
       <h6 className="box-title">{title}</h6>

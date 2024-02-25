@@ -84,6 +84,20 @@
             "about": "Mr. Saleh is the CEO of Finance at Al Mutlaq Real Estate Investment Company.",
             "bio": "Mr. Saleh is the CEO of Finance at Al Mutlaq Real Estate Investment Company. He has over 15 years of practical experience in financial management and accounting in the real estate sector. He holds a bachelor's degree in accounting from the University of Jordan, and he has obtained various professional certificates and courses in accounting and financial management.",
             "image": "/img/directors/Saleh Bin Hidarah.png"
+          },
+          {
+            "name": "Eng. Abdullah bin Abdul Rahman Al Mazrou",
+            "position": "Board Member",
+            "about": "Mr. Abdullah is the Chief Risk Officer at the Saudi Digital Bank.",
+            "bio": "Mr. Saleh is the Chief Financial Officer of Al Mutlaq Real Estate Investment Company. He has more than 15 years of practical experience in financial management and accounting in the real estate sector. He holds a bachelor’s degree in accounting from Amman Arab University in Jordan, in addition to obtaining many professional certificates and courses in accounting and financial management.",
+            "image": "/img/directors/Abdullah Abdulrahman Al Mazroa.jpg"
+          },
+          {
+            "name": "Waheeb Bajahmoum",
+            "position": "Independent member",
+            "about": "Mr. Waheeb is the head of the investment department at Naif Al Rajhi Investment Company.",
+            "bio": "He has more than 14 years of practical experience in investment management. He holds a bachelor’s degree in financial management from Prince Sultan University, in addition to obtaining many professional certificates and courses related to investment and financial analysis.",
+            "image": "/img/directors/Waheeb Bajahmoum.jpg"
           }
         ]
       }
@@ -201,8 +215,8 @@
         "terms": "Terms of Use",
         "responbility": "Disclaimer",
         "secret": "Confidentiality and Security",
-        "rights": "All Rights Reserved ©",
-        "company": "Investment and Brokerage Company 'Investment Capital'"
+        "rights": "All Rights Reserved © 2023 For ",
+        "company": "Investment and Brokerage Company «Investment Capital»"
       }
     }
   }

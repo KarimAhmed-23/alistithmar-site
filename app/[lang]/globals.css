@@ -1033,6 +1033,15 @@ body:not(:lang(ar)) .slider-arrows .arrow-btn svg {
 	background-color: #fff;
 }
 
+@media(min-width:1200px){
+	.more-wrapper{
+		background-color: #fff;
+		margin-top: 1.5rem;
+		border-radius: 5px;
+		padding-top: 1px;
+	}
+}
+
 @media(max-width:991.98px) {
 	.hero-box .hero-more {
 		margin-top: var(--box-py-more);
@@ -1072,7 +1081,7 @@ body:not(:lang(ar)) .slider-arrows .arrow-btn svg {
 .about-area .statistics-box .box-item.full-box {
 	flex-direction: column;
 	align-items: stretch;
-	justify-content: flex-end;
+	justify-content:center;
 	background-color: #000;
 	color: #fff !important;
 }
@@ -1112,7 +1121,7 @@ body:not(:lang(ar)) .slider-arrows .arrow-btn svg {
 
 .about-area .statistics-box .box-item .box-texts .title {
 	margin-bottom: 0;
-	font-size: var(--title-4);
+	font-size: var(--title-6);
 	font-weight: bold;
 	color: var(--dark);
 }
@@ -1532,7 +1541,7 @@ body:not(:lang(ar)) .slider-arrows .arrow-btn svg {
 	width: 100%;
 	object-fit: cover;
 	border-radius: inherit;
-	height: 300px;
+	height: 325px;
 }
 
 .director-box .box-title {
@@ -1599,6 +1608,11 @@ body:not(:lang(ar)) .slider-arrows .arrow-btn svg {
 @media (max-width:991.98px) {}
 
 
+.directors-area .row{
+	gap: var(--box-py-res) 0;
+}
+
+
 @media (max-width:575.98px) {
 
 	.directors-slider .swiper-slide {
@@ -1606,7 +1620,7 @@ body:not(:lang(ar)) .slider-arrows .arrow-btn svg {
 	}
 
 	.director-box img {
-		height: 300px;
+		height: 250px;
 	}
 }
 
@@ -1620,6 +1634,21 @@ body:not(:lang(ar)) .slider-arrows .arrow-btn svg {
 	background-attachment: fixed;
 	background-blend-mode: multiply;
 
+}
+
+.map-container{
+	background-color: #fff;
+	border-radius: var(--border-r-2);
+	max-width: 800px;
+	margin: auto;
+	padding: 0 0;
+	
+}
+
+.map-container img{
+	max-height:600px ;
+	min-height: 300px;
+	object-fit: contain;
 }
 
 

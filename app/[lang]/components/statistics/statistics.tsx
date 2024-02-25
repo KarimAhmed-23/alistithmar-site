@@ -13,13 +13,13 @@ export default async function Statistics({ lang }: { lang: Locale }) {
   const { page } = await getDictionary(lang);
   const chartData = {
     labels: page.home.statistics.firstLabels,
-    data: [27.8, 24.9, 9.1, 11.1, 27.1],
-    backgroundColor: ['#c9a801', '#939598', '#221F20', '#C7C8CA'],
+    data: [23.8 , 21.3 , 7.8 , 9.5 , 23.2 ] ,
+    backgroundColor: ['#000', '#dbb911', '#58595b', '#bfbfbf' , "#939598"],
   };
   const chartData2 = {
     labels: page.home.statistics.secondLabels,
-    data: [43.6, 2.9, 52.1, 2.9],
-    backgroundColor: ['#c9a801', '#939598', '#221F20', '#C7C8CA'],
+    data: [43.6, 2.9, 52.1, 1.4],
+    backgroundColor: ['#dbb911', '#bfbfbf', '#000', '#58595b'],
   };
   return (
     <section

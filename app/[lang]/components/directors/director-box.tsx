@@ -22,7 +22,7 @@ const DirectorBox: React.FC<DirectorBoxProps> = ({ director }) => {
 					</h4>
 					<p className="box-text">{director.bio}</p>
 				</div>
-				<Image className="img-fluid" src={director.image} alt={director.name} width={200} height={1000} />
+				<Image className="img-fluid" src={director.image} alt={director.name} width={400} height={400} />
 				<h4 className="box-title">
 					{director.name}
 					<span>{director.position}</span>
