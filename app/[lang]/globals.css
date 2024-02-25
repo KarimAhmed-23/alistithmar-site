@@ -1038,7 +1038,17 @@ body:not(:lang(ar)) .slider-arrows .arrow-btn svg {
 		background-color: #fff;
 		margin-top: 1.5rem;
 		border-radius: 5px;
-		padding-top: 1px;
+		border-top: 1px solid #fff;
+		padding: 0 1rem;
+	}
+	.hero-box .more-wrapper .box-item{
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	.hero-box .more-wrapper .box-item img{
+		width: 100%;
+		height: auto;
 	}
 }
 
@@ -1541,7 +1551,7 @@ body:not(:lang(ar)) .slider-arrows .arrow-btn svg {
 	width: 100%;
 	object-fit: cover;
 	border-radius: inherit;
-	height: 325px;
+	height: 350px;
 }
 
 .director-box .box-title {
@@ -1605,7 +1615,7 @@ body:not(:lang(ar)) .slider-arrows .arrow-btn svg {
 }
 
 
-@media (max-width:991.98px) {}
+
 
 
 .directors-area .row{
@@ -1613,15 +1623,33 @@ body:not(:lang(ar)) .slider-arrows .arrow-btn svg {
 }
 
 
+
+@media (min-width:1200px) {
+	.directors-area .row{
+		max-width: 90%;
+		margin: auto;
+	}
+	
+}
+@media (max-width:767.98px){
+	.director-box{
+		max-width: 420px;
+		margin: 0 auto;
+	}
+} 
 @media (max-width:575.98px) {
 
 	.directors-slider .swiper-slide {
 		width: 300px;
 	}
+	.director-box{
+		max-width: none;
+	}
 
 	.director-box img {
-		height: 250px;
+		height: 300px;
 	}
+	
 }
 
 

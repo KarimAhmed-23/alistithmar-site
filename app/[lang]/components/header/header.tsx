@@ -17,7 +17,7 @@ export default async function Header({ lang }: { lang: Locale }) {
       <div className="hero-area w-100">
         <div className="container">
           <div className="hero-box">
-            <div className="row gx-lg-5">
+            <div className="row gx-lg-5 align-items-lg-center">
               <div className="col-lg-6">
                 <div className="hero-texts">
                   <p className="hero-text">
