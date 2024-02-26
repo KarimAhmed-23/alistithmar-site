@@ -27,8 +27,8 @@ export default async function Footer({ lang }: { lang: Locale }) {
                 </div>
                 <div className="about-text mb-0">
                   {page.home.footer.about}
-                  <br />
-                  {page.home.footer.about1}
+                  {/* <br />
+                  {page.home.footer.about1} */}
                   <br />
                   {page.home.footer.about2}
                 </div>

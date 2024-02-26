@@ -1039,16 +1039,20 @@ body:not(:lang(ar)) .slider-arrows .arrow-btn svg {
 		margin-top: 1.5rem;
 		border-radius: 5px;
 		border-top: 1px solid #fff;
-		padding: 0 1rem;
+		padding: 0 1.5rem;
 	}
 	.hero-box .more-wrapper .box-item{
-		padding-right: 0;
-		padding-left: 0;
+		padding-right: .5rem;
+		padding-left: .5rem;
 	}
 
 	.hero-box .more-wrapper .box-item img{
 		width: 100%;
 		height: auto;
+	}
+
+	.hero-box .hero-texts .hero-title{
+		max-width: 500px;
 	}
 }
 
@@ -1551,7 +1555,7 @@ body:not(:lang(ar)) .slider-arrows .arrow-btn svg {
 	width: 100%;
 	object-fit: cover;
 	border-radius: inherit;
-	height: 350px;
+	height: 400px;
 }
 
 .director-box .box-title {
@@ -1626,16 +1630,20 @@ body:not(:lang(ar)) .slider-arrows .arrow-btn svg {
 
 @media (min-width:1200px) {
 	.directors-area .row{
-		max-width: 90%;
+		max-width: 80%;
 		margin: auto;
+	}
+	.director-box img{
+		height: 425px;
 	}
 	
 }
 @media (max-width:767.98px){
 	.director-box{
-		max-width: 420px;
+		max-width: 450px;
 		margin: 0 auto;
 	}
+
 } 
 @media (max-width:575.98px) {
 
