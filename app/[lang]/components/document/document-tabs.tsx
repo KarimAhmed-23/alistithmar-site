@@ -84,7 +84,7 @@ function DocumentTabs({ lang }: DocumentTabsProps) {
 														<span className="doc-title">{file.FileName}</span>
 													</div>
 													{file.asset.data?.attributes?.url ? <a
-														href={`${process.env.NEXT_PUBLIC_INVESTMENT_URL}/${file.asset.data?.attributes.url}`}
+														href={`${process.env.NEXT_PUBLIC_INVESTMENT_URL}${file.asset.data?.attributes.url}`}
 														target='_self'
 														type="button"
 														className="download-btn"
