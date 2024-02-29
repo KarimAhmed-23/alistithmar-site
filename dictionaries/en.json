@@ -57,20 +57,7 @@
       "directors": {
         "mainTitle": "Board of Directors",
         "directorsData": [
-          {
-            "name": "Khaled bin Abdulaziz Al Rayes",
-            "position": "Chairman of the Board",
-            "about": "Mr. Khaled is the CEO of Investment Capital.",
-            "bio": "Mr. Khaled is the CEO of Investment Capital. He has over 20 years of practical experience in investment banking, investment management, direct investments, and private equity. He holds an MBA and a Master's in Financial Sciences from the University of Denver, Colorado, USA. He is also a certified financial analyst.",
-            "image": "/img/directors/Khaled Alrayes.jpg"
-          },
-          {
-            "name": "Mohammed bin Mutawuq Al Jamid",
-            "position": "Board Member",
-            "about": "Mr. Mohammed is the Head of Real Estate Investment Operations at Investment Capital.",
-            "bio": "Mr. Mohammed is the Head of Real Estate Investment Operations at Investment Capital. He has over 20 years of practical experience in operations related to various investment products, including stock brokerage, bond offerings, initial public offerings, private equity funds, and real estate investment funds. He holds a diploma in banking operations from the Institute of Public Administration in Riyadh.",
-            "image": "/img/directors/Mohammed Aljamed.jpg"
-          },
+
           {
             "name": "Eng. Abdullah bin Abdul Karim Al Mazrou",
             "position": "Board Member",
@@ -79,12 +66,28 @@
             "image": "/img/directors/Abduallah  Abdulkarem Almzarou.jpg"
           },
           {
+            "name": "Khaled bin Abdulaziz Al Rayes",
+            "position": "Chairman of the Board",
+            "about": "Mr. Khaled is the CEO of Investment Capital.",
+            "bio": "Mr. Khaled is the CEO of Investment Capital. He has over 20 years of practical experience in investment banking, investment management, direct investments, and private equity. He holds an MBA and a Master's in Financial Sciences from the University of Denver, Colorado, USA. He is also a certified financial analyst.",
+            "image": "/img/directors/Khaled Alrayes.png"
+          },
+          {
             "name": "Saleh bin Omar bin Haidara",
             "position": "Board Member",
             "about": "Mr. Saleh is the CEO of Finance at Al Mutlaq Real Estate Investment Company.",
             "bio": "Mr. Saleh is the CEO of Finance at Al Mutlaq Real Estate Investment Company. He has over 15 years of practical experience in financial management and accounting in the real estate sector. He holds a bachelor's degree in accounting from the University of Jordan, and he has obtained various professional certificates and courses in accounting and financial management.",
             "image": "/img/directors/Saleh Bin Hidarah.jpg"
           },
+          {
+            "name": "Mohammed bin Mutawuq Al Jamid",
+            "position": "Board Member",
+            "about": "Mr. Mohammed is the Head of Real Estate Investment Operations at Investment Capital.",
+            "bio": "Mr. Mohammed is the Head of Real Estate Investment Operations at Investment Capital. He has over 20 years of practical experience in operations related to various investment products, including stock brokerage, bond offerings, initial public offerings, private equity funds, and real estate investment funds. He holds a diploma in banking operations from the Institute of Public Administration in Riyadh.",
+            "image": "/img/directors/Mohammed Aljamed.jpg"
+          },
+         
+          
           {
             "name": "Eng. Abdullah bin Abdul Rahman Al Mazrou",
             "position": "Board Member",

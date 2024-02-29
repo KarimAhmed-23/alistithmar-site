@@ -50,6 +50,17 @@ export default async function Header({ lang }: { lang: Locale }) {
                   </p>
                   <div className="more-wrapper">
                     <div className="row g-3">
+                    <div className="col-xl">
+                        <div className="box-item">
+                          <Image
+                            src="/img/tsib.svg"
+                            alt="Alistithmar"
+                            width={246}
+                            height={59}
+                            className="img-fluid"
+                          />
+                        </div>
+                      </div>
                       <div className="col-xl">
                         <div className="box-item">
                           <Image
@@ -61,17 +72,7 @@ export default async function Header({ lang }: { lang: Locale }) {
                           />
                         </div>
                       </div>
-                      <div className="col-xl">
-                        <div className="box-item">
-                          <Image
-                            src="/img/tsib.svg"
-                            alt="Alistithmar"
-                            width={246}
-                            height={59}
-                            className="img-fluid"
-                          />
-                        </div>
-                      </div>
+                      
                       <div className="col-xl">
                         <div className="box-item">
                           <Image
