@@ -20,7 +20,8 @@ export default function LocaleSwitcher({ lang }: { lang: Locale }) {
   return (
     <li className="list-item">
       <>
-        <Link href={redirectedPathName(oppositeLang)} className="lang-link">
+      {/* href={redirectedPathName(oppositeLang)} */}
+        <Link   href="#" className="lang-link">
           {lang === 'en' ? 'العربية' : 'English'}
           <svg
             width="20"
