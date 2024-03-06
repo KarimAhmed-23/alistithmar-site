@@ -941,7 +941,7 @@ body:not(:lang(ar)) .slider-arrows .arrow-btn svg {
 .hero-box .hero-texts .hero-title {
 	font-size: var(--title-0);
 	font-weight: bold;
-	color: var(--clr-1);
+	color: var(--dark);
 
 }
 
