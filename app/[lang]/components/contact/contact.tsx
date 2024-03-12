@@ -6,7 +6,7 @@ export default async function Contact({ lang }: { lang: Locale }) {
   const { page } = await getDictionary(lang);
 
 	return (
-		<section className="section-style contact-section w-bg" id="contactSection">
+		<section className="section-style contact-section w-bg d-none" id="contactSection">
         <div className="contact-area">
           <div className="container">
             <h1 className="main-title more-mb">

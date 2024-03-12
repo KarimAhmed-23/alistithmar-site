@@ -87,7 +87,7 @@ export default async function Footer({ lang }: { lang: Locale }) {
                   </li>
                   <li className="list-item">
                     <Link
-                      href="https://www.argaam.com/ar"
+                      href="https://www.saudiexchange.sa/wps/portal/tadawul/home/"
                       target="_blank"
                       className="item-val">
                       {page.home.footer.trade}
